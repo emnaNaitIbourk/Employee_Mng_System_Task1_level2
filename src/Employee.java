@@ -26,6 +26,7 @@ public class Employee {
         this.salary=salary;
     }
     public void display(){
+        System.out.println("Employee list: ");
         System.out.println("Employee Id: "+id);
         System.out.println("Employee Name: "+name);
         System.out.println("Employee salary: "+salary);
